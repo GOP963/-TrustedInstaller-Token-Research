@@ -22,5 +22,10 @@ and privilege boundaries work internally.
 - Visual Studio (Latest)
 - x64
 
+## Demo
+
+![TrustedInstaller Token Demo](Token.gif)
+
+
 ## 📚 Notes
 This code is intentionally kept simple for learning purposes.
