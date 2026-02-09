@@ -43,5 +43,20 @@ and privilege boundaries work internally.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://attack.mitre.org/techniques/T1134/002/
 
 
+## 🧨 Threat Actors Observed Using This Technique
+
+The following APT groups have been observed leveraging **Access Token Manipulation (T1134)** and **Create Process with Token (T1134.002)** according to MITRE ATT&CK:
+
+- **[APT28 – Fancy Bear](https://attack.mitre.org/groups/G0007/)**
+- **[APT29 – Cozy Bear](https://attack.mitre.org/groups/G0016/)**
+- **[FIN7](https://attack.mitre.org/groups/G0046/)**
+- **[Turla](https://attack.mitre.org/groups/G0010/)**
+- **[Lazarus Group](https://attack.mitre.org/groups/G0032/)**
+- **[OilRig – APT34](https://attack.mitre.org/groups/G0049/)**
+
+> ⚠️ **Disclaimer:**  
+> This repository is intended strictly for **educational and defensive security research purposes**.  
+> The inclusion of threat actor references does not imply endorsement or malicious intent.
+
 ## 📚 Notes
 This code is intentionally kept simple for learning purposes.
