@@ -26,6 +26,22 @@ and privilege boundaries work internally.
 
 ![TrustedInstaller Token Demo](Token.gif)
 
+---
+
+## 🧠 MITRE ATT&CK Mapping
+
+- **Privilege Escalation**  
+  *(TA0004)*  
+  https://attack.mitre.org/tactics/TA0004/
+
+  └── **Access Token Manipulation**  
+&nbsp;&nbsp;&nbsp;&nbsp;*(T1134)*  
+&nbsp;&nbsp;&nbsp;&nbsp;https://attack.mitre.org/techniques/T1134/
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── **Create Process with Token**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*(T1134.002)*  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://attack.mitre.org/techniques/T1134/002/
+
 
 ## 📚 Notes
 This code is intentionally kept simple for learning purposes.
