@@ -1,6 +1,6 @@
 # TrustedInstaller Token Research
 
-![TrustedInstaller Token Demo](src\Access.png)
+![TrustedInstaller Token Demo](./src/Access.png)
 
 ## ⚠️ Disclaimer
 This project is for **educational and research purposes only**.
