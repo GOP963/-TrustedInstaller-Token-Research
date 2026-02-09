@@ -1,0 +1,4 @@
+process where
+  event.type == "start" and
+  user.name in ("SYSTEM", "TrustedInstaller") and
+  process.name in ("cmd.exe", "powershell.exe", "pwsh.exe")

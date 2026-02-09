@@ -1,0 +1,6 @@
+index=windows EventCode=4688
+| eval ParentImage=lower(ParentImage), NewProcessName=lower(NewProcessName)
+| search ParentImage="*trustedinstaller.exe*" OR ParentImage="*services.exe*"
+| where NOT like(NewProcessName, "%windows\\system32%")
+| table _time ComputerName ParentImage NewProcessName CommandLine User
+| sort -_time
