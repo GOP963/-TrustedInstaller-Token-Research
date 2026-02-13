@@ -56,9 +56,5 @@ The following APT groups have been observed leveraging **Access Token Manipulati
 - **[Lazarus Group](https://attack.mitre.org/groups/G0032/)**
 - **[OilRig – APT34](https://attack.mitre.org/groups/G0049/)**
 
-> ⚠️ **Disclaimer:**  
-> This repository is intended strictly for **educational and defensive security research purposes**.  
-> The inclusion of threat actor references does not imply endorsement or malicious intent.
-
 ## 📚 Notes
 This code is intentionally kept simple for learning purposes.
